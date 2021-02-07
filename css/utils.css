@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+
+/* containers */
+
+.containerFluid {
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.container80 {
+    width: 80%;
+    margin: auto;
+}
+
+.container70 {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* grids */
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-column-gap: 10px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-column-gap: 10px;
+}
+
+.gridSb {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-column-gap: 10px;
+}
+
+
+/* margins */
+
+.my2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* text align */
+
+.tCenter {
+    text-align: center;
+}
+
+
+/* background colors */
+
+.bgDark {
+    background-color: black;
+}
+
+.bgLight {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* margins */
+
+.mAuto {
+    margin: auto;
+}
+
+
+/* cards */
+
+.trending {
+    padding: 10px;
+}
+
+.titleCards {
+    padding: 20px;
+}
+
+.titleCards h3 {
+    margin-bottom: 10px;
+}
+
+.titleCards a {
+    color: green;
+}
+
+.auther {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.auther a {
+    color: grey;
+}
+
+
+/* fluid card */
+
+.fluidCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fluidCardimage,
+.fluidCardContent {
+    padding: 10px;
+}
+
+
+/* pagination  */
+
+.pagination {
+    display: inline-block;
+    align-items: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #c729ba;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.sidebar {
+    padding: 20px;
+}
+
+.sideSearch input {
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.sideSearch i {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.widget {
+    padding: 10px;
+}
+
+.widget h4 {
+    color: rgb(28, 5, 44);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.widget ul {
+    list-style: none;
+}
+
+.widget ul li {
+    margin-bottom: 20px;
+}
+
+.widget a {
+    color: green;
+    padding: 10px;
+}
+
+.widget a:hover {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,69 @@
+@media only screen and (max-width: 800px) {
+    .grid2,
+    .grid3,
+    .gridSb {
+        grid-template-columns: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .hero {
+        height: 40vh;
+    }
+    .sInput {
+        padding: 8px 19px;
+        font-size: 19px;
+    }
+    .sButton {
+        padding: 6px 19px;
+        font-size: 22px;
+    }
+    .navBar {
+        flex-direction: column;
+    }
+    .navItems {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .fluidCard {
+        flex-direction: column;
+    }
+    .trending {
+        padding: 0px;
+    }
+    .postNavButtons span {
+        font-size: 15px;
+    }
+    .gravatarImg {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .commentFormBtn {
+        padding: 12px;
+        font-size: 13px;
+        border-radius: 15px;
+    }
+    .replyBtn {
+        padding: 8px 11px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .fluidCard {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero {
+        height: 40vh;
+    }
+    .sInput {
+        padding: 8px 14px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .fluidCard {
+        padding: 0px;
+    }
+}
