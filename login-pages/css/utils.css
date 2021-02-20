@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* background colors */
+
+.bgDark {
+    background-color: black;
+}
+
+.bgPrimary {
+    background-color: blue;
+}
+
+.bgSuccess {
+    background-color: green;
+}
+
+.bgWarnning {
+    background-color: yellow;
+}
+
+.bgError {
+    background-color: red;
+}
+
+.bgLight {
+    background-color: white;
+}
+
+
+/* containers */
+
+.containerFluid {
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+}
+
+
+/* vertical height */
+
+.vh100 {
+    height: 100vh;
+}
+
+
+/* grids */
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.gridItemCenter {
+    place-content: center;
+}
+
+
+/* margin */
+
+.mAuto {
+    margin: auto;
+}

@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1300px) {
+    .grid2 {
+        grid-template-columns: 100%;
+    }
+    .loginLeft img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .loginRight h2 {
+        font-size: 1.6rem;
+    }
+    #lusername,
+    #sUsername,
+    #sEmail,
+    #lpassword,
+    #sPassword,
+    #cPassword {
+        font-size: 1rem;
+    }
+    .checkMe {
+        font-size: 0.8rem;
+    }
+    .loginRight button {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .loginRight h2 {
+        font-size: 1.2rem;
+    }
+    #lusername,
+    #sUsername,
+    #sEmail,
+    #lpassword,
+    #sPassword,
+    #cPassword {
+        font-size: 0.7rem;
+    }
+    .checkMe {
+        font-size: 0.6rem;
+    }
+    .loginRight button {
+        font-size: 0.7rem;
+    }
+}
